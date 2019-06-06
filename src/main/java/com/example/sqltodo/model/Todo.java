@@ -14,6 +14,8 @@ public class Todo {
   private boolean urgent = false;
   @Column(nullable = true, name = "Status")
   private boolean done = false;
+  @ManyToOne
+  private Assignee assignee;
 
   public Todo() {
   }
@@ -52,5 +54,13 @@ public class Todo {
 
   public void setDone(boolean done) {
     this.done = done;
+  }
+
+  public Assignee getAssignee() {
+    return assignee;
+  }
+
+  public void setAssignee(Assignee assignee) {
+    this.assignee = assignee;
   }
 }

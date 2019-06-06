@@ -9,6 +9,9 @@
   <h1>Add a new todo to your list.</h1>
 
   <form th:action="@{/newtodo}" th:method="post">
+    <select>
+      <option th:each="assignee : ${assignees}" th:value="${assignee.assignee_id}" th:text="${assignee.name}"></option>
+    </select>
     <input name ="todo" th:type="text" placeholder="what todo">
     <label>is it urgent?</label>
     <input name ="urgency" th:type="checkbox">

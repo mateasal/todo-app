@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffe10308-d4fa-47c9-a69b-1fd43e32f91d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/controller/AssigneeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/model/Assignee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/repository/AssigneeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/AssigneeServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/IAssigneeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/TodoServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addassignee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/assigneeinfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/editassignee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/sqltodo/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/sqltodo/controller/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/sqltodo/model/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/sqltodo/model/Todo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/sqltodo/repository/ITodoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/sqltodo/repository/ITodoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/sqltodo/service/ITodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/example/sqltodo/service/ITodoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/addtodo.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/addtodo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/todolist.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/todolist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/model/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/repository/ITodoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/repository/ITodoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/ITodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/ITodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addtodo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addtodo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/todolist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/todolist.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/controller/TodoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="65" column="58" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/AssigneeServiceImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/TodoServiceImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/controller/AssigneeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/model/Todo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+              <folding>
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/model/Assignee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/repository/AssigneeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/ITodoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/repository/ITodoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/model/Assignee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/repository/AssingeeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/AssigneeService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/addassignee.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/editassignee.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/AssigneeServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/IAssigneeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/ITodoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/model/Todo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/controller/TodoController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/users.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/controller/AssigneeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/assigneeinfo.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/todolist.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/addtodo.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/TodoServiceImp.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/modules/sqltodo.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_classmate_1_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_javax_activation_api_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_persistence_javax_persistence_api_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_transaction_javax_transaction_api_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_validation_validation_api_2_0_1_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_8_0_16.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_9_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_9_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_11_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_attoparser_attoparser_2_0_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_dom4j_dom4j_2_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_3_10_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_23_2_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_jandex_2_0_5_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_23_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_26.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_26.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_2_1_8_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_2_1_8_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sqltodo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sqltodo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sqltodo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sqltodo" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sqltodo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sqltodo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SqltodoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sqltodo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.sqltodo.SqltodoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="MYSQL_USERNAME" value="root" />
+        <env name="MYSQL_PASSWORD" value="password" />
+        <env name="MYSQL_URL" value="jdbc:mysql://localhost/todo?serverTimezone=GMT-6" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffe10308-d4fa-47c9-a69b-1fd43e32f91d" name="Default Changelist" comment="" />
+      <created>1559223106576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559223106576</updated>
+      <workItem from="1559223109328" duration="1675000" />
+      <workItem from="1559472752417" duration="2639000" />
+      <workItem from="1559570974371" duration="448000" />
+      <workItem from="1559571563114" duration="941000" />
+      <workItem from="1559587211773" duration="5031000" />
+      <workItem from="1559650020951" duration="8646000" />
+      <workItem from="1559660171290" duration="3770000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23150000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5712098" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32924962" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297568" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19638555" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32924962" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297568" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sqltodo$SqltodoApplication.ic" NAME="SqltodoApplication Coverage Results" MODIFIED="1559571795313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/SqltodoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.5.RELEASE/95789d4de06a4c37eebb1f6ce7bc7290951d60c7/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="501" column="44" selection-start-line="501" selection-start-column="44" selection-end-line="501" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addassignee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/editassignee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/repository/ITodoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addtodo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/todolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/assigneeinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="112" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/IAssigneeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/AssigneeServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/controller/AssigneeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/repository/AssigneeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/ITodoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/service/TodoServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/model/Todo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+          <folding>
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/model/Assignee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sqltodo/controller/TodoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="65" column="58" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

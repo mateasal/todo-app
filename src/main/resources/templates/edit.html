@@ -15,6 +15,9 @@
     <input name ="urgency" th:type="checkbox" th:checked="${urgent}">
     <label>is it done?</label>
     <input name ="done" th:type="checkbox" th:checked="${done}">
+    <select name="assignee_id">
+      <option th:each="assignee : ${assignees}" th:value="${assignee.assignee_id}" th:text="${assignee.name}"></option>
+    </select>
     <input type="submit">
   </form>
 

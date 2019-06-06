@@ -7,19 +7,27 @@
 <body>
 
 <a href="/addtodo">Add a new todo to your list.</a>
+<a href="/assignees">See assignees.</a>
 
 <h1>TODOS FOR TODAY:</h1>
+
+<form th:action="@{/search}" th:method="post">
+  <input name="search" th:type="text" placeholder="search for todo">
+  <input type="submit">
+</form>
 
 <table>
   <tr>
     <th>ID</th>
     <th>ACTION</th>
+    <th>ASSIGNEE</th>
     <th>DONE</th>
     <th>URGENT</th>
   </tr>
   <tr th:each="todo : ${todos}">
     <td th:text="${todo.id}"></td>
     <td th:text="${todo.title}"></td>
+    <td><a th:text="${todo.assignee.name}" th:href="|@{/assigneeinfo}?assignee_id=${todo.assignee.assignee_id}|"></a></td>
     <td th:text="${todo.done}"></td>
     <td th:text="${todo.urgent}"></td>
     <td><a th:href="|@{/delete}?id=${todo.id}|">delete</a></td>
